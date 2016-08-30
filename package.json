@@ -1,0 +1,19 @@
+{
+  "name": "React-webapp-starter-template",
+  "version": "0.1.0",
+  "description": "A starting template for react, node js and express based apps",
+  "main": "server.js",
+  "author": "Ranjith Kumar S",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "cookie-parser": "*",
+    "connect-flash": "*"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  }
+}
