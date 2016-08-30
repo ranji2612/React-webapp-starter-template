@@ -3,6 +3,9 @@ logs
 *.log
 npm-debug.log*
 
+# React build
+build/*.js
+
 # Runtime data
 pids
 *.pid

@@ -15,6 +15,10 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// static folder
+app.use(express.static('public'));
+app.use(express.static('build'));
+
 // route file
 require('./app/routes/routes.js')(app);
 
